@@ -16,7 +16,7 @@ routes.put('/:id', temples.update);
 // Delete a Temple with id
 routes.delete('/:id', temples.delete);
 
-// Create a new Temple
+// Delete all temples
 routes.delete('/', temples.deleteAll);
 
 
